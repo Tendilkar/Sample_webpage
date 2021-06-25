@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+    <title>Html page</title>
+</head>
+<style>
+    body {
+        background-color: rgb(254, 252, 255);
+    }
+
+    .navbar-brand {
+        font-size: small;
+        /* color:rgb(87, 209, 240); */
+        /* text-decoration-color: rgb(108, 190, 241); */
+    }
+
+    .card {
+        /* border-radius: 5px; */
+        /* position: absolute; */
+        background-color: rgb(246, 248, 250);
+        /* width: 400px;
+            height: 300px; */
+    }
+
+    .card-subtitle {
+        font-weight: bolder;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @media only screen and (min-width: 768px) {
+        #namecard {
+            padding-right: 5px;
+        }
+
+        #imagecard {
+            padding-left: 4px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        #edu-card {
+            padding-right: 5px;
+        }
+
+        #exp-card {
+            padding-left: 5px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        #what-app {
+            padding-right: 5px;
+        }
+
+        #twitter {
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+
+        #insta {
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+
+        #fb {
+            padding-left: 5px;
+        }
+    }
+
+    #imgcard {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #h1 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #h2{
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #content {
+        text-align-last: center;
+    }
+
+    #p1 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* text-align-last: center; */
+    }
+
+    #edu-card {
+        text-align-last: center;
+    }
+
+    #exp-card {
+        text-align-last: center;
+    }
+
+    #currency {
+        text-align-last: center;
+    }
+
+    #dollar {
+        text-align-last: center;
+    }
+
+    #diamond {
+        text-align-last: center;
+    }
+
+    #btn1 {
+        background-color: rgb(254, 252, 255);
+        /* color: black;  */
+        border: 2px solid #79BAEC;
+        border-radius: 1px;
+    }
+
+    #btn2 {
+        background-color: rgb(246, 248, 250);
+        /* color: black;  */
+        border: 2px solid #79BAEC;
+        border-radius: 1px;
+    }
+
+    #buy {
+        background-color: rgb(246, 248, 250);
+        /* color: black;  */
+        border: 2px solid #79BAEC;
+        border-radius: 1px;
+    }
+</style>
+
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand pb-1">
+        <a href="#" class="navbar-brand">Bootstrap HTML Templates</a>
+        <div class="collapse navbar-collapse"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a href="#" class="btn btn-outline-info dropdown-toggle mr-2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        HTML Templates
+                    </a>
+                    <a href="#" class="btn btn-outline-info dropdown-toggle mr-3" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        HTML Templates 2
+                    </a>
+                    <a href="#" class="btn mr-3" id="btn1">Back to Main</a>
+                </div>
+        </ul>
+        </div>
+    </nav>
+    <!--card-->
+    <!--Row 1-->
+    <div class="row m-0">
+        <div class="col-md-5" id="namecard" style="height: 300px;">
+            <div class="card" style="height: 300px;">
+                <div class="card-body">
+                    <h1 class="card-text text-center">MARY D. DAVIS</h1>
+                    <h2 class="card-subtitle text-center mr-5">____</h2><br><br>
+                    <p class="card-text text-center mr-5">Bootstrap HTML Template</p>
+                    <div class="d-flex justify-content-around pt-4">
+                        <a href="#download" class="btn btn-outline-info" id="btn2"><i
+                                class="fa fa-fw fa-download"></i>Download CV</a>
+                        <a href="#contact" class="btn btn-outline-info" id="btn2"><i
+                                class="fa fa-fw fa-volume-control-phone"></i>Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7" id="imagecard" style="height: 300px;width: 100%;">
+            <img class="card-img"
+                src="https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg"
+                alt="card images">
+        </div>
+    </div>
+    <!--Row 2-->
+    <!-- <div class="m-4 p-5"
+        style="background-position-x: center;background-image: url('https://images.pexels.com/photos/1553962/pexels-photo-1553962.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg');">
+        <div class="d-flex flex-column" style="text-align: center;">
+            <h1>About Me</h1>
+            <span class="d-flex justify-content-center my-3"><span style="height:2px;width:15%;background-color:black;"></span>
+        </span>
+            <p class="my-5">I am Mary D. Davis, Web Designer from USA, California I have rich
+                experience in web site design and building and customization, also I
+                am good at wordpress and using Bootstrap HTML Template. I love to
+                talk with you about our unique and resume Designer Template. </p>
+            <span> AGE......27</span>
+            <span class="my-3"> RESIDENCE.......USA</span>
+            <span> FREELANCE......Available</span>
+            <span class="my-3"> ADDRESS.......California,USA</span>
+        </div>
+    </div> -->
+
+
+    <div class="row m-0 pt-3">
+        <div class="col-md-12" id="textcard" style="height: 500px;">
+            <!-- <div class="card" style="height: 500px;"> -->
+            <img class="card-img" id="imgcard"
+                src="https://images.pexels.com/photos/1553962/pexels-photo-1553962.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg"
+                alt="card images">
+            <div id="content">
+                <h1 id="h1">About Me</h1><br>
+                <h2 id="h2">___</h2><br>
+                <p id="p1">I am Mary D. Davis, Web Designer from USA, California I have rich<br>
+                    experience in web site design and building and customization, also I<br>
+                    am good at wordpress and using Bootstrap HTML Template. I love to<br>
+                    talk with you about our unique and resume Designer Template.<br><br>
+
+                    AGE......27<br><br>
+                    RESIDENCE.......USA<br><br>
+                    FREELANCE......Available<br><br>
+                    ADDRESS.......California,USA
+                </p>
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <!--Row 3-->
+    <div>
+        <div class="row m-0 pt-3">
+            <div class="col-md-12" id="thirdcard">
+                <div class="card" style="height: 150px;">
+                    <h1 class="card-text text-center">Bootstrap HTML Template<br></h1>
+                    <h2 class="card-subtitle text-center pd-2">____</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Row 4-->
+    <div>
+        <div class="row m-0 pt-3">
+            <div class="col-md-6" id="edu-card">
+                <div class="card" style="height: 450px;">
+                    <h1 class="card-text"><i class="fa fa-fw fa-graduation-cap"></i></h1>
+                    <h1 class="card-text" font-size="x-small">EDUCATION</h1>
+                    <p class="card-body pt-5">
+                        <b>2007-2009 PROGRAMMING COURSE</b> (PARIS)<br>
+                        Coursework-Git,Wordpress,Javasript,IOS,Android<br><br>
+                        <b>2005-2007 WEB DESIGN COURSE</b> (LONDON)<br>
+                        Converted Photograph layout to Web pages using HTML,CSS and Javascript<br><br>
+                        <b>2004-2005</b> ART UNIVERSITY (NEW YORK)<br>
+                        Bachelor's Degree in Computer science ABC Technical Institute,Jefferson,Missouri
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6" id="exp-card">
+                <div class="card" style="height: 450px;">
+                    <h1 class="card-text"><i class="fa fa-fw fa-briefcase"></i></h1>
+                    <h1 class="card-text" font-size="x-small">EXPERIENCE</h1><br><br><br>
+                    <p class="card-body pt-5">
+                        <b>2017-PRESENT</b> ART DIRECTOR (FACEBOOK INC.)<br>
+                        Collaborate with creative and development teams on the execution of ideas<br><br>
+                        <b>2014-2017 SENIOR DEVELOPER</b> (GOOGLE INC.)<br>
+                        Optimize website performance using latest technology<br><br>
+                        <b>2010-2014</b> FRONT-END DEVELOPER (ABC INC.)<br>
+                        Monitored technical aspect of the front-end delivery for several projects. Using the Resume<br>
+                        Designer template
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Row 5 & Row 6-->
+    <div>
+        <div class="pt-3 mx-4">
+            <!--Row 5-->
+           
+                <div class="card" >
+                    <h1 class="card-text text-center pt-4">Pricing<br></h1>
+                    <h2 class="card-subtitle text-center">___</h2>
+                    <!--Row 6-->
+                    <div class="row m-0 p-0">
+                        <div class="col-md-4 pt-5" id="currency" style="height: 350px;">
+                            <h1 class="card-text"><i class="fa fa-fw fa-money"></i></h1>
+                            <p class="card-subtitle">22$<br><br>
+                                Web Development<br>Advertising</p><br>
+                            <a href="#Buy" class="btn btn-outline-info" id="buy"><i
+                                    class="fa fa-fw fa-dollar"></i>Buy</a>
+                        </div>
+                        <div class="col-md-4" id="dollar" style="height: 350px;">
+                            <h1 class="card-text pt-5"><i class="fa fa-fw fa-dollar"></i></h1>
+                            <p class="card-subtitle">35$<br><br>Web Development<br>
+                                Advertising<br>Game Development</p><br>
+                            <a href="#Buy" class="btn btn-outline-info" id="buy"><i
+                                    class="fa fa-fw fa-dollar"></i>Buy</a>
+                        </div>
+                        <div class="col-md-4" id="diamond" style="height: 350px;">
+                            <h1 class="card-text pt-5"><i class="fa fa-fw fa-diamond"></i></h1>
+                            <p class="card-subtitle">50$<br><br>Web Development<br>
+                                Advertising<br>Game Development<br>Music Writing<br>Photography</p><br>
+                            <a href="#Buy" class="btn btn-outline-info" id="buy"><i
+                                    class="fa fa-fw fa-dollar"></i>Buy</a>
+                        </div>
+                    </div>
+              
+            </div>
+        </div>
+    </div>
+    <!--Row 7-->
+    <div>
+        <div class="row m-0 pt-3">
+            <div class="col-md-12" id="seventhcard">
+                <div class="card" style="height: 150px;">
+                    <h1 class="card-text text-center">My Services<br></h1>
+                    <h2 class="card-subtitle text-center pd-3">___</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Row 8-->
+    <div>
+        <div class="row m-0 py-3">
+            <div class="col-md-3" id="what-app">
+                <div class="card" style="height: 200px;">
+                    <h1 class="card-text text-center pt-5">Whats App<br></h1>
+                    <h1 class="card-text text-center"><i class="fa fa-fw fa-whatsapp"></i></h1>
+                </div>
+            </div>
+            <div class="col-md-3" id="twitter">
+                <div class="card" style="height: 200px;">
+                    <h1 class="card-text text-center pt-5">Twitter<br></h1>
+                    <h1 class="card-text text-center"><i class="fa fa-fw fa-twitter"></i></h1>
+                </div>
+            </div>
+            <div class="col-md-3" id="insta">
+                <div class="card" style="height: 200px;">
+                    <h1 class="card-text text-center pt-5">Instagram<br></h1>
+                    <h1 class="card-text text-center"><i class="fa fa-fw fa-instagram"></i></h1>
+                </div>
+            </div>
+            <div class="col-md-3" id="fb">
+                <div class="card" style="height: 200px;">
+                    <h1 class="card-text text-center pt-5">Facebook<br></h1>
+                    <h1 class="card-text text-center"><i class="fa fa-fw fa-facebook"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
